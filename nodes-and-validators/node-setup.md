@@ -91,5 +91,3 @@ tar -xvzf ggezchain_linux_amd64.tar.gz
 Now run `./ggezchaind -h` to check it.
 
 ## Configure ggezchaid
-
-test
