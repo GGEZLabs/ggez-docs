@@ -161,7 +161,7 @@ address = "0.0.0.0:9090"
 
 ### Connect to Other Nodes <a href="#prepare-and-connect-to-other-nodes" id="prepare-and-connect-to-other-nodes"></a>
 
-Follow this [link](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#sync-options) to Sync to Other Nodes
+Follow this [link](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#sync-options) to sync to other nodes
 
 ## Initialize Cosmovisor <a href="#initialize-chain" id="initialize-chain"></a>
 
