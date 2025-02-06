@@ -1,5 +1,5 @@
 ---
-description: Instruction to install and configure the ggezchaind binary
+description: Instruction to install and configure the ggezchaind binary.
 ---
 
 # Node Setup
@@ -30,7 +30,7 @@ wget https://golang.org/dl/go1.21.13.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.21.13.linux-amd64.tar.gz
 ```
 
-Then set these in the `.profile` in the user's home (i.e. `~/`) folder
+Then set these in the `.profile` in the user's home (i.e. `~/`) folder:
 
 ```
 export GOROOT=/usr/local/go
@@ -75,13 +75,13 @@ git clone https://github.com/GGEZLabs/ggezchain.git
 cd ggezchain
 ```
 
-Build ggezchaind binary
+Build ggezchaind binary.
 
 ```
 ignite chain build --release.targets linux:amd64 --output ./release --release
 ```
 
-Extract build file
+Extract build file.
 
 ```
 cd release 
@@ -111,7 +111,7 @@ mv genesis.json ~/.ggezchain/config/genesis.json
 
 ### Seeds & Peers[​](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#seeds--peers) <a href="#seeds--peers" id="seeds--peers"></a>
 
-Upon startup the node will need to connect to peers. If there are specific nodes a node operator is interested in setting as seeds or as persistent peers, this can be configured in `~/.ggezchain/config/config.toml`
+Upon startup the node will need to connect to peers. If there are specific nodes a node operator is interested in setting as seeds or as persistent peers, this can be configured in `~/.ggezchain/config/config.toml` .
 
 ```
 # Comma separated list of seed nodes to connect to
@@ -161,11 +161,11 @@ address = "0.0.0.0:9090"
 
 ### Connect to Other Nodes <a href="#prepare-and-connect-to-other-nodes" id="prepare-and-connect-to-other-nodes"></a>
 
-Follow this [link](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#sync-options) to sync to other nodes
+Follow this [link](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#sync-options) to sync to other nodes.
 
 ## Initialize Cosmovisor <a href="#initialize-chain" id="initialize-chain"></a>
 
-Before start the node we will init `cosmovisor`
+Before start the node we will init `cosmovisor` .
 
 ```
 cosmovisor init /path/to/ggezchaind

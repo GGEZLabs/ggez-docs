@@ -53,6 +53,3 @@
 [https://rest.ggez.one/cosmos/bank/v1beta1/spendable\_balances/{address}/by\_denom?denom=uggez1](https://rest.ggez.one/cosmos/bank/v1beta1/spendable_balances/%7Baddress%7D/by_denom?denom=uggez1)
 
 **Example :** [https://rest.ggez.one/cosmos/bank/v1beta1/spendable\_balances/ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh/by\_denom?denom=uggez1](https://rest.ggez.one/cosmos/bank/v1beta1/spendable_balances/ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh/by_denom?denom=uggez1)
-
-\
-\\

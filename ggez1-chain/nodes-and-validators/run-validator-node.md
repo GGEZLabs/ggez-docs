@@ -4,13 +4,13 @@ Before setting up a validator node, make sure to have completed the [Node Setup]
 
 ## Create Account
 
-We will create an account to control the validator
+We will create an account to control the validator.
 
 ```
 ggezchaind keys add account_name
 ```
 
-If you have already have an account add `--recover` flag to previous command
+If you have already have an account add `--recover` flag to previous command.
 
 {% hint style="info" %}
 Activate the account by sending tokens to it.

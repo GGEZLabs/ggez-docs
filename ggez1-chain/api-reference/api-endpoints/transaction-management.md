@@ -8,7 +8,7 @@
 1 GGEZ1 = 1,000 MGGEZ = 1,000,000 UGGEZ1
 
 **Transaction Success Validation Criteria:**\
-Based on Response Code, if code is 0 then transaction is successful
+Based on Response Code, if code is 0 then transaction is successful.
 
 **Memo/Tag Support:** Yes
 
