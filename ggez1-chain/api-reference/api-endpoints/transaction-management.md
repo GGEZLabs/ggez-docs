@@ -17,7 +17,7 @@ Based on Response Code, if code is 0 then transaction is successful.
 Send token using Keplr wallet.
 
 **@cosmjs/stargate** and **@keplr-wallet/types** packages required to complete transaction.\
-Also chain info file:\
+Also **chain info** file:\
 [https://github.com/chainapsis/keplr-chain-registry/blob/main/cosmos/ggezchain.json](https://github.com/chainapsis/keplr-chain-registry/blob/main/cosmos/ggezchain.json)
 
 {% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
