@@ -56,7 +56,7 @@ export async function sendTokenExample() {
     const toAddress = "ggez1u7374gx6efl39vsd6mhwn0pw7nhwzqtfjumkfh";
     const amount: Coin[] = [
       {
-        amount: "1000000", // 1000000 uggez1 = 1 GGEZ
+        amount: "1000000", // 1000000 uggez1 = 1 GGEZ1
         denom: "uggez1",
       },
     ];
